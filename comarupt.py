@@ -17,10 +17,12 @@ print(""" \
 """)
 import os
 print("CanOS Günceleme- Kurulum Ekranına Hoşgeldiniz!")
-print("Güncelleme için komut bu komut ayrıca güncelleme bitince otomatik başlatır. : 'canos:local_comar(upt=true,res=true)'
+print("Güncelleme için komut : canos:local_comar(upt=true,res=true)")
 loadercmd = input("canos:root>")
 if loadercmd == "canos:local_comar(upt=true,res=true)":
+        #the code loads canos new version
         print("güncelleme tamamlandı.")
-        f = open(os.path.join(__location__, 'b01.py'))
-        quit()
-input()
+        
+else:
+        print("non avaible command")
+        input()
