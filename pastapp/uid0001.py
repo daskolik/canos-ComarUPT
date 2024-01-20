@@ -1,5 +1,5 @@
 print("canOS - UI+ Script for B01 izmir efes")
-import tkinker
+
 import tkinter as tk
 from tkinter import ttk
 
