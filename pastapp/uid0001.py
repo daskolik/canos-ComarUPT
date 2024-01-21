@@ -6,7 +6,7 @@ from tkinter import ttk
 def create_windows_style_gui():
     # Create the main window
     root = tk.Tk()
-    root.title("Windows-like GUI")
+    root.title("canOS - UI+ ")
 
     # Configure window size and position
     root.geometry("400x300")
